@@ -75,6 +75,23 @@
     .link a:hover {
       text-decoration: underline;
     }
+    .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff !important; /* 텍스트 색상을 흰색으로 강제 적용 */
+    background-color: #0066cc; /* 버튼 배경색 */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: #004999; /* 호버 시 더 어두운 배경색 */
+  }
   </style>
 </head>
 <body>
@@ -99,7 +116,7 @@
     </div>
 
     <div class="link">
-      <a href="https://tinyurl.com/sydneymothers20reunion" target="_blank"><b>참석 등록: CLICK !!</b></a>
+      <a href="https://tinyurl.com/sydneymothers20reunion" target="_blank" class="button">참석 등록</a>
     </div>
   </div>
 </body>
